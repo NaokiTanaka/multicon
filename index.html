@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="css/multicon.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="collapse bg-inverse" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+
+        <!--Licence-->
+        <div class="col-sm-9 py-3" id="about">
+          <h4 class="collapse-nav text-uppercase">mult<span class="yellow">icon</span></h4>
+          <p class="text-white">MULTICON is a set of beautiful simple icons. MULTICON is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>            so it is FREE for both commercial and personal use with appropriate credit. Please share this project if you
+            are a generous person.<i class="icon-robot"></i></p>
+        </div>
+
+        <!-- Share buttons-->
+        <div class="col-sm-3 py-3">
+          <h4 class="text-white">Share</h4>
+          <ul class="list-unstyled ">
+            <li><a href="https://twitter.com/share" class="twitter-share-button" data-via="naclife1983">Tweet</a>
+              <script>
+                !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');
+              </script>
+            </li>
+            <li>
+              <iframe src="https://www.facebook.com/plugins/share_button.php?locale=en_US&amp;href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button_count&size=small&mobile_iframe=true&width=88&height=20&appId"
+                width="100" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </li>
+            <li><a href="https://www.pinterest.com/pin/create/button/">
+                <img src="https://assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" />
+              </a></li>
+            <li><a class="btn btn-email" href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site http://www.website.com."
+                title="Share by Email"><i class="icon-mail"></i>Email</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- navbar content -->
+  <div class="navbar navbar-inverse bg-inverse">
+    <div class="container d-flex justify-content-between">
+      <a href="#" class="navbar-brand text-uppercase"><img src="images/multicon-logo.svg" class="nav-logo" alt="multicon-logo"></a>
+      <button class="navbar-toggler nav-share" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span>About</span>
+        </button>
+    </div>
+  </div>
+
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading text-uppercase">mult<span class="yellow">icon</span></h1>
+      <p class="lead text-muted">Simple linear icons with pure CSS</p>
+      <p>
+        <a href="#" class="btn btn-oulline-warn btn-jumbotron"><i class="icon-zip"></i>&nbsp;Download zip</a>
+        <a href="#" class="btn btn-oulline-warn btn-jumbotron"><i class="icon-trophy"></i>&nbsp;See on Github</a>
+      </p>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <div class="input-group my-4">
+      <span class="input-group-addon"><i class="icon-loupe"></i></span>
+      <input class="form-control" type="text" placeholder="Search an icon" id="search-text"/>
+    </div>
+    
+    <div id="icons" class="row searchResult"></div>
+
+    <div class="row">
+      <div class="col">
+        <div class="usage-title">
+          <h3 class="text-uppercase">CDN</h3>
+        </div>
+        <p>Load this script on your HTML</p>
+
+        <pre class="prettyprint">   &lt;script src=“https://unpkg.com/multicon"&gt; &lt;/script&gt;</pre>
+      </div>
+    </div>
+    <br>
+
+    <div class="row">
+      <div class="col">
+        <div class="usage-title">
+          <h3>npm</h3>
+        </div>
+        <p>1. Install with <a href="https://www.npmjs.com/" target="_blank">npm</a></p>
+
+        <pre class="prettyprint">   npm install multicon —save</pre>
+        
+        <p>2. Include this script where you want to use the icons. This file is located in dist
+directory.</p>
+
+        <pre class="prettyprint">   &lt;script src=“path/to/dist/multicon.min.css”&gt; &lt;/script&gt;</pre>
+      </div>
+    </div>
+    <br>
+
+    <div class="row">
+      <div class="col">
+        <div class="usage-title">
+          <h3>Usage(both CDN and npm)</h3>
+        </div>
+        <p>To use icon for both case, you only add class on your HTML tags.</p>
+
+        <pre class="prettyprint">   &lt;i class=“icon-smile"&gt; &lt;/i&gt;</pre>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+          <p class="d-block">Enjoy!!</p>
+      </div>
+      <div class="col-6 text-right">
+        <p class="goup">
+          <a href="#"><i class="icon-chev-w-up"></i>&nbsp;Back to top</a>
+        </p>
+      </div>
+    </div>
+    <br>
+
+  </div>
+
+    <footer class="text-muted py-4 text-center">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="https://github.com/NaokiTanaka/multicon" target="_blank">GitHub</a></li>
+          <li><a href="https://github.com/NaokiTanaka/multicon/releases" target="_blank">Release Note</a></li>
+          <li><a href="#about" target="_blank">Licence</a></li>
+          <li><a href="mailto:okure2311@gmail.com">Contact</a></li>
+        </ul>
+        <p class="text-center">Made with <i class="icon-laptop"></i> by Naoki Tanaka</p>
+      </div>
+    </footer>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+    <script type="text/javascript" src="icons.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+</body>
+
+</html>

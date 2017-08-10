@@ -1,0 +1,87 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.yellow {
+    color: #FFD43D;
+}
+.nav-logo {
+    width: 30px;
+}
+
+.nav-share {
+    border: none;
+    align-self: auto;
+}
+
+.btn-email {
+    font-size: 0.75rem;
+    background: #FFD43D;
+    color: white;
+    padding: 0.2rem 0.4rem;
+    margin-top: 0.4rem;
+}
+.collapse-nav {
+    color: white;
+}
+
+.jumbotron {
+    background: url('../images/bg-l.gif') no-repeat center /cover;
+    color: white;
+    padding: 2rem;
+    border-radius: 0;
+}
+.btn-jumbotron {
+    border-color: #FFD43D;
+    color: #FFD43D;
+    transition: all 0.3s linear;
+}
+
+.btn-jumbotron:hover {
+    border-color: #b1932a;
+    color: none;
+    background: #FFD43D;
+}
+
+.list-unstyled a{
+    backgronund-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg…-.038-1.693%202.558-1.847%204.778-4.15%206.532-6.774z%22%2F%3E%3C%2Fsvg%3E);
+}
+
+.card i {
+    padding: 1rem;
+}
+
+pre.prettyprint {
+    padding: 10px !important;
+    border: 1px solid #d2d2d2 !important;
+    background: #fafafa;
+    border-radius: 0.25rem;
+}
+
+.goup a:hover{
+    text-decoration: none;
+}
+
+footer {
+    background: url('../images/bg.gif') no-repeat center /cover; 
+}
+
+.footer-links li {
+    display: inline-block;
+}
+
+.footer-links li a {
+    color: #FFD43D;
+    transition: all 0.3s linear;
+}
+
+.footer-links li a:hover {
+    text-decoration: none;
+    color: #b1932a;
+}
+
+.footer-links li+li {
+    margin-left: 1rem;
+}
