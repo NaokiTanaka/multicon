@@ -4,7 +4,9 @@ CDN
 
 Load this script on your HTML
 
+```
    <script src=“https://unpkg.com/multicon"> </script>
+```
 
 npm
 
