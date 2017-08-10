@@ -8,7 +8,7 @@ Load this script on your HTML
    <script src=“https://unpkg.com/multicon"> </script>
 ```
 
-npm
+<h2>npm</h2>
 
 1. Install with npm
 
@@ -22,7 +22,7 @@ npm
    <script src=“path/to/dist/multicon.min.css”> </script>
 ```
 
-Usage(both CDN and npm)
+<h2>Usage(both CDN and npm)</h2>
 
 To use icon for both case, you only add class on your HTML tags.
 
