@@ -481,3 +481,4 @@ $("search-text").on('keyup', function() {
 });
 
 console.log("result" ,result);
+
