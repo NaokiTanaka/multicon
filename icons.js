@@ -481,3 +481,9 @@ $("search-text").on('keyup', function() {
 });
 
 console.log("result" ,result);
+
+// 1 - Get value from search bar
+// 2 a if searchValue === key.class, add class with display block 
+// 2 b else, add class with display none (or fadeIn / fadeOut instead)
+// 3 if searchValue empty, all display block class
+// GET THIS SHIT DONE. PLEASE. BEFORE CHRISTMAS 2020
