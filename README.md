@@ -1,4 +1,5 @@
-<a href="https://naokitanaka.github.io/multicon/" target="_blank"># MULTICONS - Free Simple Linear Icons</a>
+# MULTICONS - Free Simple Linear Icons
+<p>Check out the <a href="https://naokitanaka.github.io/multicons/" target="_blank">demo</a>.
 
 <h2>CDN</h2>
 
