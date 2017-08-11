@@ -1,6 +1,6 @@
 {
-  "name": "multicon",
-  "version": "0.0.1",
+  "name": "multicons",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NaokiTanaka/multicon.git"
+    "url": "git+https://github.com/NaokiTanaka/multicons.git"
   },
   "author": "Naoki Tanaka",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NaokiTanaka/multicon/issues"
+    "url": "https://github.com/NaokiTanaka/multicons/issues"
   },
-  "homepage": "https://github.com/NaokiTanaka/multicon#readme",
+  "homepage": "https://github.com/NaokiTanaka/multicons#readme",
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",

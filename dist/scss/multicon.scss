@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'multicon';
-  src: url('../fonts/multicon.eot?927iei');
-  src: url('../fonts/multicon.eot?927iei#iefix') format("embedded-opentype"), url('../fonts/multicon.ttf?927iei') format("truetype"), url('../fonts/multicon.woff?927iei') format("woff"), url('../fonts/multicon.svg?927iei#multicon') format("svg");
+  font-family: 'multicons';
+  src: url('../fonts/multicons.eot?927iei');
+  src: url('../fonts/multicons.eot?927iei#iefix') format("embedded-opentype"), url('../fonts/multicons.ttf?927iei') format("truetype"), url('../fonts/multicons.woff?927iei') format("woff"), url('../fonts/multicons.svg?927iei#multicons') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -9,7 +9,7 @@
 [class^="icon-"],
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'multicon' !important;
+  font-family: 'multicons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;

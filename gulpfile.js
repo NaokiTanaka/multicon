@@ -48,7 +48,7 @@ gulp.task('cleanSCSS', function () {
 
 gulp.task('zip', () => {
   return gulp.src('dist/*')
-    .pipe(zip('multicon.zip'))
+    .pipe(zip('multicons.zip'))
     .pipe(gulp.dest('.'))
     .pipe(notify({ message: 'Zip task complete' }));
 });
