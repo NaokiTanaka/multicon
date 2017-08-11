@@ -432,53 +432,36 @@ $(document).ready(function () {
     }
   ];
 
-  let contentHTML = '';
-  for (i = 0; i < icons.length; i++) {
-    contentHTML += `
-    <div class="col-12 col-md-4 col-lg-3 mb-3">
-      <div class="card p-3">
-          <span class="card-text">
-            <i class="${icons[i].class}"></i>.${icons[i].class}
-          </span>
+  function displayIcons(list) {
+    let contentHTML = '';
+    for (i = 0; i < list.length; i++) {
+      contentHTML += `
+      <div class="col-12 col-md-4 col-lg-3 mb-3">
+        <div class="card p-3">
+            <span class="card-text">
+              <i class="${list[i].class}"></i>.${list[i].class}
+            </span>
+        </div>
       </div>
-    </div>
-    `
+      `
+    }
 
-    // contentHTML = contentHTML + 'next div'
+    if (contentHTML.length === 0) {
+      contentHTML = '<div class="col"><p>No icons match your search. Sorry :\'(</p></div>';
+    }
+
+    $("#icons").html(contentHTML);
   }
 
-  console.log('contentHTML', contentHTML)
-  $("#icons").html(contentHTML);
+  $("#search-text").on("input", (e) => {
+    var search = $("#search-text").val().toLowerCase();
+    var results = $.grep(icons, (el) => {
+      return el.class.toLowerCase().indexOf(search) > -1;
+    });
+
+    displayIcons(results);
+  });
+
+  displayIcons(icons);
 
 });
-
-// function search() {
-  
-//   var searchResult = '';
-//   var searchText = document.getElementById("search-text");
-//   if (searchText != '') {
-//     $('multicons.name').each(function() {
-//       targetText = $(this).text();
- 
-//       if (targetText.indexOf(searchText) != -1) {
-//         searchResult.push(targetText);
-//       }
-//     });
- 
-//     for (var i = 0; i < searchResult.length; i ++) {
-//       $('<span>').text(searchResult[i]).appendTo('#container');
-//     }
-//   }
-// };
-
-//   console.log('search');
-
-$("search-text").on('keyup', function() {
-  var search = this.value.toLowerCase();
-  var result = $.grep(multicons, function(el){
-    return el.multicons.toLowerCase().indexOf(search) > -1;
-  }); 
-});
-
-console.log("result" ,result);
-
