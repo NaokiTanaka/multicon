@@ -23,7 +23,7 @@
         <div class="col-sm-9 py-3" id="about">
           <h4 class="collapse-nav text-uppercase">mult<span class="yellow">icons</span></h4>
           <p class="text-white">MULTICONS is a set of beautiful simple icons. MULTICONS is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>            so it is FREE for both commercial and personal use with appropriate credit. Please share this project if you
-            are a generous person.<i class="icon-robot"></i></p>
+            are a generous person <i class="icon-good"></i><i class="icon-good"></i></p>
         </div>
 
         <!-- Share buttons-->
@@ -36,12 +36,9 @@
               </script>
             </li>
             <li>
-              <iframe src="https://www.facebook.com/plugins/share_button.php?locale=en_US&amp;href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button_count&size=small&mobile_iframe=true&width=88&height=20&appId"
+              <iframe src="https://www.facebook.com/plugins/share_button.php?locale=en_US&amp;href=https://github.com/NaokiTanaka/multicons&layout=button_count&size=small&mobile_iframe=true&width=88&height=20&appId"
                 width="100" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </li>
-            <li><a href="https://www.pinterest.com/pin/create/button/">
-                <img src="https://assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" />
-              </a></li>
             <li><a class="btn btn-email" href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site https://naokitanaka.github.io/multicons/."
                 title="Share by Email"><i class="icon-mail"></i>Email</a></li>
           </ul>
@@ -66,7 +63,7 @@
   <section class="jumbotron text-center">
     <div class="container">
       <h1 class="jumbotron-heading text-uppercase">mult<span class="yellow">icons</span></h1>
-      <p class="lead text-muted">Simple linear icons with pure CSS</p>
+      <p class="lead">Simple linear icons with pure CSS</p>
       <p>
         <a href="https://github.com/NaokiTanaka/multicons/tree/master/multicons.zip" class="btn btn-oulline-warn btn-jumbotron" download><i class="icon-zip"></i>&nbsp;Download zip</a>
         <a href="https://github.com/NaokiTanaka/multicons" target="_blank" class="btn btn-oulline-warn btn-jumbotron"><i class="icon-trophy"></i>&nbsp;See on Github</a>
@@ -88,7 +85,7 @@
         <div class="usage-title">
           <h3 class="text-uppercase">CDN</h3>
         </div>
-        <p>Load this stylesheet in the head of your HTML</p>
+        <p>1. Load this css stylesheet in your HTML</p>
         <pre class="prettyprint">&lt;link rel="stylesheet" type="text/css" href="https://unpkg.com/multicons/dist/css/multicons.min.css" /&gt;</pre>
       </div>
     </div>
@@ -103,10 +100,16 @@
 
         <pre class="prettyprint">npm i multicons —-save</pre>
 
-        <p>2. Include this script where you want to use the icons. This file is located in dist directory.
+        <p>2. Include this stylesheet in your HTML / SCSS / LESS file. This file is located in dist directory.
+          <ul>
+            <li>CSS
+                <pre class="prettyprint">&lt;script src="path/to/dist/multicons.min.css"&gt; &lt;/script&gt;</pre>
+            </li>
+            <li>SCSS/LESS
+                <pre class="prettyprint">import '~/multicons/dist/scss/multicons.min.scss'; // SCSS<br>import '~/multicons/dist/less/multicons.min.less'; // LESS</pre>
+            </li>
+          </ul>
         </p>
-
-        <pre class="prettyprint">&lt;script src="path/to/dist/multicons.min.css"&gt; &lt;/script&gt;</pre>
       </div>
     </div>
     <br>
@@ -114,16 +117,16 @@
     <div class="row">
       <div class="col">
         <div class="usage-title">
-          <h3>Usage(both CDN and npm)</h3>
+          <h3>Usage</h3>
         </div>
-        <p>To use icon for both case, you only add class on your HTML tags.</p>
+        <p>To use icon for both cases, you only add class on your HTML tags.</p>
 
         <pre class="prettyprint">&lt;i class="icon-smile"&gt;&lt;/i&gt;</pre>
       </div>
     </div>
     <div class="row">
       <div class="col-6">
-        <p class="d-block">Enjoy!!</p>
+        <p class="d-block">Enjoy<i class="icon-good"></i>!!</p>
       </div>
       <div class="col-6 text-right">
         <p class="goup">
@@ -135,7 +138,7 @@
 
   </div>
 
-  <footer class="text-muted py-4 text-center">
+  <footer class="text-white py-4 text-center">
     <div class="container">
       <ul class="footer-links">
         <li><a href="https://github.com/NaokiTanaka/multicons" target="_blank">GitHub</a></li>
@@ -155,7 +158,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
     crossorigin="anonymous"></script>
   <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-  <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
   <script type="text/javascript" src="icons.js"></script>
 </body>
 
