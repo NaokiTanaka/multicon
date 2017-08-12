@@ -6,7 +6,7 @@
 Load this script on your HTML
 
 ```html
-<script src=“https://unpkg.com/multicons"></script>
+<script src="https://unpkg.com/multicons"></script>
 ```
 
 ## Install
@@ -20,13 +20,13 @@ npm i --save multicons
 2. Include this script where you want to use the icons. This file is located in dist directory.
 
 ```html
-<script src=“path/to/dist/multicons.min.css”></script>
+<script src="path/to/dist/multicons.min.css"></script>
 ```
 
 ## Usage(both CDN and npm)
 To use icon for both case, you only add class on your HTML tags.
 ```html
-<i class=“icon-smile"></i>
+<i class="icon-smile"></i>
 ```
 
 ## Demo
