@@ -1,30 +1,35 @@
 # MULTICONS - Free Simple Linear Icons
 [![npm version](https://badge.fury.io/js/multicons.svg)](https://badge.fury.io/js/multicons)
 
-## CDN
-
-Load this script on your HTML
-
-```html
-<script src="https://unpkg.com/multicons"></script>
-```
-
 ## Install
 
-1. Install with npm
+### CDN
+1. Load this css stylesheet in your HTML
 
+```html
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/multicons/dist/css/multicons.min.css" />
+```
+
+### NPM
+
+1. Install with npm
 ```shell
 npm i --save multicons
 ```
 
-2. Include this script where you want to use the icons. This file is located in dist directory.
+2. Include this stylesheet in your HTML / SCSS / LESS file. This file is located in dist directory.
+  - Css
+    ```html
+    <link rel="stylesheet" type="text/css" href="path/to/node_modules/multicons/dist/css/multicons.min.css" />
+    ```
+  - SCSS / LESS
+    ```css
+    import '~/multicons/dist/scss/multicons.min.scss'; // SCSS
+    import '~/multicons/dist/less/multicons.min.less'; // LESS
+    ```
 
-```html
-<script src="path/to/dist/multicons.min.css"></script>
-```
-
-## Usage(both CDN and npm)
-To use icon for both case, you only add class on your HTML tags.
+## Usage
+To use icon for both cases, you only add class on your HTML tags.
 ```html
 <i class="icon-smile"></i>
 ```
