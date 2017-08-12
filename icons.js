@@ -437,7 +437,7 @@ $(document).ready(function () {
     for (i = 0; i < list.length; i++) {
       contentHTML += `
       <div class="col-12 col-md-4 col-lg-3 mb-3">
-        <div class="card p-3">
+        <div class="card p-3 card-zoom">
             <span class="card-text">
               <i class="${list[i].class}"></i>.${list[i].class}
             </span>
@@ -464,4 +464,14 @@ $(document).ready(function () {
 
   displayIcons(icons);
 
+});
+
+$(document).ready(function(){
+  $('.card-zoom').hover(function() {
+      $(this).addClass('transition');
+      console.log("added");
+
+  }, function() {
+      $(this).removeClass('transition');
+  });
 });

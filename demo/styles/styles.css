@@ -24,7 +24,6 @@ p {
   background: #FFD43D;
   color: white;
   padding: 0.2rem 0.4rem;
-  margin-top: 0.4rem;
 }
 
 .collapse-nav {
@@ -97,4 +96,15 @@ footer {
   .btn-jumbotron {
     margin-top: 0.5rem;
   }
+}
+
+.card-zoom {
+  width: 100%;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.transition {
+  -webkit-transform: scale(1.2); 
+  -moz-transform: scale(1.2);
+  transform: scale(1.2);
 }
