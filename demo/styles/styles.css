@@ -58,6 +58,10 @@ p {
   padding: 1rem;
 }
 
+.card {
+  cursor: pointer;
+}
+
 pre.prettyprint {
   padding: 10px !important;
   border: 1px solid #d2d2d2 !important;
@@ -98,13 +102,9 @@ footer {
   }
 }
 
-.card-zoom {
-  width: 100%;
-  -webkit-transition: all .2s ease-in-out;
-}
-
 .transition {
-  -webkit-transform: scale(1.2); 
+  -webkit-transition: all .2s ease-in-out;
+  -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   transform: scale(1.2);
 }
