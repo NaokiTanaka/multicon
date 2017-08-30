@@ -1,7 +1,12 @@
+$font-multicons-path: '../fonts/';
 @font-face {
   font-family: 'multicons';
-  src: url('../fonts/multicons.eot');
-  src: url('../fonts/multicons.eot#iefix') format("embedded-opentype"), url('../fonts/multicons.ttf') format("truetype"), url('../fonts/multicons.woff') format("woff"), url('../fonts/multicons.svg#multicons') format("svg");
+  src: url('#{$font-multicons-path}multicons.eot');
+  src: url('#{$font-multicons-path}multicons.eot#iefix') format("embedded-opentype"),
+  url('#{$font-multicons-path}multicons.ttf') format("truetype"),
+  url('#{$font-multicons-path}multicons.woff') format("woff"),
+  url('#{$font-multicons-path}multicons.ttf') format("truetype"),
+  url('#{$font-multicons-path}multicons.svg#multicons') format("svg");
   font-weight: normal;
   font-style: normal;
 }
