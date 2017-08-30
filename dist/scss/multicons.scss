@@ -1,4 +1,4 @@
-$font-multicons-path: '../fonts/';
+$font-multicons-path: '../fonts/' !default;
 @font-face {
   font-family: 'multicons';
   src: url('#{$font-multicons-path}multicons.eot');
