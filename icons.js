@@ -8,7 +8,7 @@ $(document).ready(function () {
       <div class='col-12 col-md-4 col-lg-3 mb-3'>
         <div class='card p-3'>
             <span class='card-text'>
-              <i class='mi ${list[i].class}'></i>.${list[i].class}
+              <i class='${list[i].class}'></i>.${list[i].class}
             </span>
         </div>
       </div>
@@ -42,8 +42,6 @@ $(document).ready(function () {
       });
 
       displayIcons(icons);
-
-      console.log('icons', icons.length);
     }
   });
 
