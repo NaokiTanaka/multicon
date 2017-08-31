@@ -26,8 +26,10 @@ npm i --save multicons
     ```
   - SCSS / LESS
     ```css
-    import '~/multicons/dist/scss/multicons.min.scss'; // SCSS
-    import '~/multicons/dist/less/multicons.min.less'; // LESS
+    // You have to copy font folder with Webpack or alternatives
+    $font-multicons-path: '/assets/fonts/multicons/';
+    @import '~/multicons/dist/scss/multicons.min.scss'; // SCSS
+    @import '~/multicons/dist/less/multicons.min.less'; // LESS
     ```
 
 ## Usage

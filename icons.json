@@ -1,0 +1,482 @@
+[
+  {
+    "class": "mi-home",
+    "name": "Home"
+  },
+  {
+    "class": "mi-store",
+    "name": "Store"
+  },
+  {
+    "class": "mi-building",
+    "name": "Building"
+  },
+  {
+    "class": "mi-building2",
+    "name": "Building2"
+  },
+  {
+    "class": "mi-user",
+    "name": "User"
+  },
+  {
+    "class": "mi-users",
+    "name": "Users"
+  },
+  {
+    "class": "mi-edit",
+    "name": "Edit"
+  },
+  {
+    "class": "mi-edit-p",
+    "name": "Edit plus"
+  },
+  {
+    "class": "mi-bin",
+    "name": "Bin"
+  },
+  {
+    "class": "mi-floppy",
+    "name": "Floppy save"
+  },
+  {
+    "class": "mi-upload",
+    "name": "Upload"
+  },
+  {
+    "class": "mi-download",
+    "name": "download"
+  },
+  {
+    "class": "mi-folder",
+    "name": "Folder"
+  },
+  {
+    "class": "mi-calendar",
+    "name": "Calendar"
+  },
+  {
+    "class": "mi-time",
+    "name": "Time"
+  },
+  {
+    "class": "mi-timer",
+    "name": "Timer"
+  },
+  {
+    "class": "mi-config",
+    "name": "Config Setting"
+  },
+  {
+    "class": "mi-loupe",
+    "name": "Loupe magnify search"
+  },
+  {
+    "class": "mi-plane-st",
+    "name": "Plane dashed"
+  },
+  {
+    "class": "mi-report",
+    "name": "Report file"
+  },
+  {
+    "class": "mi-zip",
+    "name": "Zip file"
+  },
+  {
+    "class": "mi-music",
+    "name": "Music file"
+  },
+  {
+    "class": "mi-pdf",
+    "name": "PDF file"
+  },
+  {
+    "class": "mi-video",
+    "name": "Video file"
+  },
+  {
+    "class": "mi-image",
+    "name": "Image file"
+  },
+  {
+    "class": "mi-document",
+    "name": "Document file"
+  },
+  {
+    "class": "mi-signature",
+    "name": "Signature"
+  },
+  {
+    "class": "mi-checked",
+    "name": "Checked"
+  },
+  {
+    "class": "mi-copy",
+    "name": "Copy"
+  },
+  {
+    "class": "mi-print",
+    "name": "Print"
+  },
+  {
+    "class": "mi-plane",
+    "name": "Plane"
+  },
+  {
+    "class": "mi-mail",
+    "name": "Mail"
+  },
+  {
+    "class": "mi-box",
+    "name": "Box"
+  },
+  {
+    "class": "mi-laptop",
+    "name": "Laptop"
+  },
+  {
+    "class": "mi-iphone",
+    "name": "Phone iphone"
+  },
+  {
+    "class": "mi-keyboard",
+    "name": "Keyboard"
+  },
+  {
+    "class": "mi-camera",
+    "name": "Camera"
+  },
+  {
+    "class": "mi-scale",
+    "name": "Scale"
+  },
+  {
+    "class": "mi-check",
+    "name": "Check"
+  },
+  {
+    "class": "mi-plus",
+    "name": "Plus"
+  },
+  {
+    "class": "mi-minus",
+    "name": "Minus"
+  },
+  {
+    "class": "mi-x",
+    "name": "X"
+  },
+  {
+    "class": "mi-refresh",
+    "name": "Refresh"
+  },
+  {
+    "class": "mi-dots",
+    "name": "Dots"
+  },
+  {
+    "class": "mi-circle-l",
+    "name": "Circle line Left"
+  },
+  {
+    "class": "mi-circle-r",
+    "name": "Circle line right"
+  },
+  {
+    "class": "mi-hint",
+    "name": "Hint"
+  },
+  {
+    "class": "mi-info",
+    "name": "Info"
+  },
+  {
+    "class": "mi-warn",
+    "name": "Warn"
+  },
+  {
+    "class": "mi-chev-l",
+    "name": "Chevron left"
+  },
+  {
+    "class": "mi-chev-r",
+    "name": "Chevron right"
+  },
+  {
+    "class": "mi-chev-up",
+    "name": "Chevron up"
+  },
+  {
+    "class": "mi-chev-d",
+    "name": "Chevron down"
+  },
+  {
+    "class": "mi-arrow-l",
+    "name": "Arrow left"
+  },
+  {
+    "class": "mi-arrow-up",
+    "name": "Arrow Up"
+  },
+  {
+    "class": "mi-arrow-r",
+    "name": "Arrow right"
+  },
+  {
+    "class": "mi-arrow-d",
+    "name": "Arrow down"
+  },
+  {
+    "class": "mi-enter",
+    "name": "Enter"
+  },
+  {
+    "class": "mi-chev-w-l",
+    "name": "Chevron double left"
+  },
+  {
+    "class": "mi-chev-w-up",
+    "name": "Chevron double up"
+  },
+  {
+    "class": "mi-chev-w-r",
+    "name": "Chevron double right"
+  },
+  {
+    "class": "mi-chev-w-d",
+    "name": "Chevron double down"
+  },
+  {
+    "class": "mi-tri-l-up",
+    "name": "Triangle line up"
+  },
+  {
+    "class": "mi-tri-l-down",
+    "name": "Triangle line down"
+  },
+  {
+    "class": "mi-tri-up",
+    "name": "Triangle up"
+  },
+  {
+    "class": "mi-tri-down",
+    "name": "Triangle down"
+  },
+  {
+    "class": "mi-backspace",
+    "name": "Backspace"
+  },
+  {
+    "class": "mi-tongue",
+    "name": "Tongue face"
+  },
+  {
+    "class": "mi-neutral",
+    "name": "Neutral face"
+  },
+  {
+    "class": "mi-angry",
+    "name": "Angry face"
+  },
+  {
+    "class": "mi-confusing",
+    "name": "Confusing face"
+  },
+  {
+    "class": "mi-smile",
+    "name": "Smile face"
+  },
+  {
+    "class": "mi-girl",
+    "name": "Girl face"
+  },
+  {
+    "class": "mi-exit",
+    "name": "Exit"
+  },
+  {
+    "class": "mi-balloon",
+    "name": "Balloon"
+  },
+  {
+    "class": "mi-b-graph",
+    "name": "Browser graph"
+  },
+  {
+    "class": "mi-graph",
+    "name": "Graph"
+  },
+  {
+    "class": "mi-creditcard",
+    "name": "Credit card"
+  },
+  {
+    "class": "mi-bill",
+    "name": "Bill"
+  },
+  {
+    "class": "mi-dollar",
+    "name": "Bill dollar"
+  },
+  {
+    "class": "mi-euro",
+    "name": "Bill euro"
+  },
+  {
+    "class": "mi-id",
+    "name": "ID"
+  },
+  {
+    "class": "mi-age-21",
+    "name": "Age21"
+  },
+  {
+    "class": "mi-age-19",
+    "name": "Age19"
+  },
+  {
+    "class": "mi-age-18",
+    "name": "Age18"
+  },
+  {
+    "class": "mi-calendar2",
+    "name": "Calendar2"
+  },
+  {
+    "class": "mi-robot",
+    "name": "Robot"
+  },
+  {
+    "class": "mi-trophy",
+    "name": "Trophy"
+  },
+  {
+    "class": "mi-ticket",
+    "name": "Ticket"
+  },
+  {
+    "class": "mi-sun",
+    "name": "Sun"
+  },
+  {
+    "class": "mi-moon",
+    "name": "Moon"
+  },
+  {
+    "class": "mi-cloud",
+    "name": "Cloud"
+  },
+  {
+    "class": "mi-rain",
+    "name": "Rain"
+  },
+  {
+    "class": "mi-thunder",
+    "name": "Thunder"
+  },
+  {
+    "class": "mi-c-up",
+    "name": "Cloud upload"
+  },
+  {
+    "class": "mi-c-down",
+    "name": "Cloud download"
+  },
+  {
+    "class": "mi-map",
+    "name": "Map"
+  },
+  {
+    "class": "mi-truck",
+    "name": "Truck"
+  },
+  {
+    "class": "mi-language",
+    "name": "Language"
+  },
+  {
+    "class": "mi-scissor",
+    "name": "Scissor"
+  },
+  {
+    "class": "mi-bad",
+    "name": "Thumbs down"
+  },
+  {
+    "class": "mi-good",
+    "name": "Thumbs up"
+  },
+  {
+    "class": "mi-usb",
+    "name": "USB"
+  },
+  {
+    "class": "mi-bat-full",
+    "name": "Battery full"
+  },
+  {
+    "class": "mi-bat-60",
+    "name": "Battery60"
+  },
+  {
+    "class": "mi-bat-30",
+    "name": "Battry30"
+  },
+  {
+    "class": "mi-bat-emp",
+    "name": "Battery empty"
+  },
+  {
+    "class": "mi-collect",
+    "name": "Collect mail"
+  },
+  {
+    "class": "mi-return",
+    "name": "Return mail"
+  },
+  {
+    "class": "mi-slack",
+    "name": "Slack"
+  },
+  {
+    "class": "mi-facebook",
+    "name": "facebook"
+  },
+  {
+    "class": "mi-twitter",
+    "name": "twitter"
+  },
+  {
+    "class": "mi-instagram",
+    "name": "instagram"
+  },
+  {
+    "class": "mi-behance",
+    "name": "behance"
+  },
+  {
+    "class": "mi-linkedin",
+    "name": "LinkedIn"
+  },
+  {
+    "class": "mi-pinterest",
+    "name": "pinterest"
+  },
+  {
+    "class": "mi-youtube",
+    "name": "Youtube"
+  },
+  {
+    "class": "mi-google",
+    "name": "Google"
+  },
+  {
+    "class": "mi-vimeo",
+    "name": "vimeo"
+  },
+  {
+    "class": "mi-dropbox",
+    "name": "Dropbox"
+  }
+]
