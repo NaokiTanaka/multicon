@@ -1,7 +1,7 @@
 # MULTICONS - Free Simple Linear Icons
 [![npm version](https://badge.fury.io/js/multicons.svg)](https://badge.fury.io/js/multicons)
 
-![alt tag](https://github.com/NaokiTanaka/multicons/blob/dev-home/demo/images/header.gif)
+![alt tag](https://github.com/NaokiTanaka/multicons/blob/master/demo/images/header.gif)
 
 ## Install
 
