@@ -19,11 +19,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.mi-chev-up:before {
-  content: "\e96d"; }
-
-.mi-chev-d:before {
-  content: "\e96e"; }
+.mi-slack-outline:before {
+  content: "\e970"; }
 
 .mi-slack:before {
   content: "\e905"; }
@@ -79,7 +76,7 @@
 .mi-edit:before {
   content: "\e9ae"; }
 
-.mi-edit-p:before {
+.mi-edit-plus:before {
   content: "\e907"; }
 
 .mi-bin:before {
@@ -112,7 +109,7 @@
 .mi-loupe:before {
   content: "\e90c"; }
 
-.mi-plane-st:before {
+.mi-plane-dash:before {
   content: "\e904"; }
 
 .mi-report:before {
@@ -160,7 +157,7 @@
 .mi-laptop:before {
   content: "\e95b"; }
 
-.mi-iphone:before {
+.mi-phone:before {
   content: "\e92f"; }
 
 .mi-keyboard:before {
@@ -181,7 +178,7 @@
 .mi-minus:before {
   content: "\e91e"; }
 
-.mi-x:before {
+.mi-close:before {
   content: "\e93e"; }
 
 .mi-refresh:before {
@@ -190,10 +187,10 @@
 .mi-dots:before {
   content: "\e940"; }
 
-.mi-circle-l:before {
+.mi-circle-left:before {
   content: "\e903"; }
 
-.mi-circle-r:before {
+.mi-circle-right:before {
   content: "\e902"; }
 
 .mi-hint:before {
@@ -205,49 +202,55 @@
 .mi-warn:before {
   content: "\e94c"; }
 
-.mi-chev-l:before {
+.mi-chevron-left:before {
   content: "\e901"; }
 
-.mi-chev-r:before {
+.mi-chevron-up:before {
+  content: "\e96d"; }
+
+.mi-chevron-right:before {
   content: "\e900"; }
 
-.mi-arrow-l:before {
+.mi-chevron-down:before {
+  content: "\e96e"; }
+
+.mi-arrow-left:before {
   content: "\e931"; }
 
 .mi-arrow-up:before {
   content: "\e933"; }
 
-.mi-arrow-r:before {
+.mi-arrow-right:before {
   content: "\e93b"; }
 
-.mi-arrow-d:before {
+.mi-arrow-down:before {
   content: "\e932"; }
 
 .mi-enter:before {
   content: "\e93c"; }
 
-.mi-chev-w-l:before {
+.mi-chevron-w-left:before {
   content: "\e95f"; }
 
-.mi-chev-w-up:before {
+.mi-chevron-w-up:before {
   content: "\e95e"; }
 
-.mi-chev-w-r:before {
+.mi-chevron-w-right:before {
   content: "\e960"; }
 
-.mi-chev-w-d:before {
+.mi-chevron-w-down:before {
   content: "\e95d"; }
 
-.mi-tri-l-up:before {
+.mi-caret-outline-up:before {
   content: "\e961"; }
 
-.mi-tri-l-down:before {
+.mi-caret-outline-down:before {
   content: "\e962"; }
 
-.mi-tri-up:before {
+.mi-caret-up:before {
   content: "\e992"; }
 
-.mi-tri-down:before {
+.mi-caret-down:before {
   content: "\e9a0"; }
 
 .mi-backspace:before {
@@ -274,10 +277,13 @@
 .mi-exit:before {
   content: "\e926"; }
 
-.mi-balloon:before {
+.mi-bubble:before {
   content: "\e927"; }
 
-.mi-b-graph:before {
+.mi-bubbles:before {
+  content: "\e96f"; }
+
+.mi-graph-browser:before {
   content: "\e91a"; }
 
 .mi-graph:before {
@@ -334,10 +340,10 @@
 .mi-thunder:before {
   content: "\e938"; }
 
-.mi-c-up:before {
+.mi-cloud-upload:before {
   content: "\e939"; }
 
-.mi-c-down:before {
+.mi-cloud-download:before {
   content: "\e93a"; }
 
 .mi-map:before {
@@ -361,16 +367,16 @@
 .mi-usb:before {
   content: "\e956"; }
 
-.mi-bat-full:before {
+.mi-battery-full:before {
   content: "\e94d"; }
 
-.mi-bat-60:before {
+.mi-battery-60:before {
   content: "\e94e"; }
 
-.mi-bat-emp:before {
+.mi-battery-empty:before {
   content: "\e957"; }
 
-.mi-bat-30:before {
+.mi-battery-30:before {
   content: "\e958"; }
 
 .mi-collect:before {

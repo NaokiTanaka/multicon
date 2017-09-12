@@ -28,7 +28,7 @@
     "name": "Edit"
   },
   {
-    "class": "mi-edit-p",
+    "class": "mi-edit-plus",
     "name": "Edit plus"
   },
   {
@@ -72,7 +72,7 @@
     "name": "Loupe magnify search"
   },
   {
-    "class": "mi-plane-st",
+    "class": "mi-plane-dash",
     "name": "Plane dashed"
   },
   {
@@ -136,8 +136,8 @@
     "name": "Laptop"
   },
   {
-    "class": "mi-iphone",
-    "name": "Phone iphone"
+    "class": "mi-phone",
+    "name": "Phone"
   },
   {
     "class": "mi-keyboard",
@@ -164,8 +164,8 @@
     "name": "Minus"
   },
   {
-    "class": "mi-x",
-    "name": "X"
+    "class": "mi-close",
+    "name": "Close"
   },
   {
     "class": "mi-refresh",
@@ -176,11 +176,11 @@
     "name": "Dots"
   },
   {
-    "class": "mi-circle-l",
+    "class": "mi-circle-left",
     "name": "Circle line Left"
   },
   {
-    "class": "mi-circle-r",
+    "class": "mi-circle-right",
     "name": "Circle line right"
   },
   {
@@ -196,23 +196,23 @@
     "name": "Warn"
   },
   {
-    "class": "mi-chev-l",
+    "class": "mi-chevron-left",
     "name": "Chevron left"
   },
   {
-    "class": "mi-chev-r",
-    "name": "Chevron right"
-  },
-  {
-    "class": "mi-chev-up",
+    "class": "mi-chevron-up",
     "name": "Chevron up"
   },
   {
-    "class": "mi-chev-d",
+    "class": "mi-chevron-right",
+    "name": "Chevron right"
+  },
+  {
+    "class": "mi-chevron-down",
     "name": "Chevron down"
   },
   {
-    "class": "mi-arrow-l",
+    "class": "mi-arrow-left",
     "name": "Arrow left"
   },
   {
@@ -220,11 +220,11 @@
     "name": "Arrow Up"
   },
   {
-    "class": "mi-arrow-r",
+    "class": "mi-arrow-right",
     "name": "Arrow right"
   },
   {
-    "class": "mi-arrow-d",
+    "class": "mi-arrow-down",
     "name": "Arrow down"
   },
   {
@@ -232,35 +232,35 @@
     "name": "Enter"
   },
   {
-    "class": "mi-chev-w-l",
+    "class": "mi-chevron-w-left",
     "name": "Chevron double left"
   },
   {
-    "class": "mi-chev-w-up",
+    "class": "mi-chevron-w-up",
     "name": "Chevron double up"
   },
   {
-    "class": "mi-chev-w-r",
+    "class": "mi-chevron-w-right",
     "name": "Chevron double right"
   },
   {
-    "class": "mi-chev-w-d",
+    "class": "mi-chevron-w-down",
     "name": "Chevron double down"
   },
   {
-    "class": "mi-tri-l-up",
+    "class": "mi-caret-outline-up",
     "name": "Triangle line up"
   },
   {
-    "class": "mi-tri-l-down",
+    "class": "mi-caret-outline-down",
     "name": "Triangle line down"
   },
   {
-    "class": "mi-tri-up",
+    "class": "mi-caret-up",
     "name": "Triangle up"
   },
   {
-    "class": "mi-tri-down",
+    "class": "mi-caret-down",
     "name": "Triangle down"
   },
   {
@@ -296,11 +296,15 @@
     "name": "Exit"
   },
   {
-    "class": "mi-balloon",
-    "name": "Balloon"
+    "class": "mi-bubble",
+    "name": "Bubble"
   },
   {
-    "class": "mi-b-graph",
+    "class": "mi-bubbles",
+    "name": "Bubbles"
+  },
+  {
+    "class": "mi-graph-browser",
     "name": "Browser graph"
   },
   {
@@ -376,11 +380,11 @@
     "name": "Thunder"
   },
   {
-    "class": "mi-c-up",
+    "class": "mi-cloud-upload",
     "name": "Cloud upload"
   },
   {
-    "class": "mi-c-down",
+    "class": "mi-cloud-download",
     "name": "Cloud download"
   },
   {
@@ -412,19 +416,19 @@
     "name": "USB"
   },
   {
-    "class": "mi-bat-full",
+    "class": "mi-battery-full",
     "name": "Battery full"
   },
   {
-    "class": "mi-bat-60",
+    "class": "mi-battery-60",
     "name": "Battery60"
   },
   {
-    "class": "mi-bat-30",
+    "class": "mi-battery-30",
     "name": "Battry30"
   },
   {
-    "class": "mi-bat-emp",
+    "class": "mi-battery-emp",
     "name": "Battery empty"
   },
   {
@@ -438,6 +442,10 @@
   {
     "class": "mi-slack",
     "name": "Slack"
+  },
+  {
+    "class": "mi-slack-outline",
+    "name": "Slack outline"
   },
   {
     "class": "mi-facebook",
