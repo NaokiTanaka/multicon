@@ -5,7 +5,7 @@ $(document).ready(function () {
     let contentHTML = '';
     for (let i = 0; i < list.length; i++) {
       contentHTML += `
-      <div class='col-12 col-md-4 col-lg-3 mb-3'>
+      <div class='col-12 col-md-4 col-lg-4 mb-3'>
         <div class='card p-3'>
             <span class='card-text'>
               <i class='${list[i].class}'></i>.${list[i].class}
