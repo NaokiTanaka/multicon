@@ -44,7 +44,7 @@ To use icon for both cases, you only add class on your HTML tags.
 Enjoy!!
 
 ## Donate
-This project is a work in progress as I'm adding more icons to help your design beter! Help support this project with a donation or PR!
+This project is a work in progress as I'm adding more icons to help your design better! Help support this project with a donation or PR!
 
 - BTC: 15nevPGaPA34ieAuBLUnfoP3qP97XhrjsW
 - ETH: 0x2bf8d2602f9a3d0729876e38d8f4a0c9cbce09ef

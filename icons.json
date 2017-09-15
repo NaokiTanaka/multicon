@@ -428,7 +428,7 @@
     "name": "Battry30"
   },
   {
-    "class": "mi-battery-emp",
+    "class": "mi-battery-empty",
     "name": "Battery empty"
   },
   {
@@ -486,5 +486,21 @@
   {
     "class": "mi-dropbox",
     "name": "Dropbox"
+  },
+  {
+    "class": "mi-messenger",
+    "name": "Messenger"
+  },
+  {
+    "class": "mi-share",
+    "name": "Share"
+  },
+  {
+    "class": "mi-globe",
+    "name": "Globe"
+  },
+  {
+    "class": "mi-web",
+    "name": "Web"
   }
 ]
