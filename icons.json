@@ -16,6 +16,10 @@
     "name": "Building2"
   },
   {
+    "class": "mi-bank",
+    "name": "Back Exchange"
+  },
+  {
     "class": "mi-user",
     "name": "User"
   },
@@ -72,8 +76,16 @@
     "name": "Loupe magnify search"
   },
   {
+    "class": "mi-loupe-line",
+    "name": "Loupe magnify search line"
+  },
+  {
     "class": "mi-plane-dash",
     "name": "Plane dashed"
+  },
+  {
+    "class": "mi-news",
+    "name": "News paper"
   },
   {
     "class": "mi-report",
