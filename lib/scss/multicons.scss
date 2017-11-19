@@ -26,6 +26,18 @@ $font-multicons-path: '../fonts/' !default;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mi-android:before {
+  content: "\e978";
+}
+
+.mi-playstore:before {
+  content: "\e979";
+}
+
+.mi-telegram:before {
+  content: "\e97a";
+}
+
 .mi-bank:before {
   content: "\e975";
 }

@@ -504,6 +504,10 @@
     "name": "Messenger"
   },
   {
+    "class": "mi-telegram",
+    "name": "Telegram"
+  },
+  {
     "class": "mi-share",
     "name": "Share"
   },
@@ -514,5 +518,13 @@
   {
     "class": "mi-web",
     "name": "Web"
+  },
+  {
+    "class": "mi-android",
+    "name": "Android"
+  },
+  {
+    "class": "mi-playstore",
+    "name": "Google Play Store"
   }
 ]
